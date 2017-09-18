@@ -1,18 +1,15 @@
-import React, { Component } from 'react'
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
+import React, { Component } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default class BaseLayout extends Component {
   render() {
     return (
-      <div class="container">
-        <Header/>  
       <div>
-      {this.props.children}  
-      </div>
-        <Footer/>
+        <Header />
+        <div>{this.props.children}</div>
+        <Footer />
       </div>
     );
   }
 }
-

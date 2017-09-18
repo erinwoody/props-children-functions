@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import BaseLayout from './components/BaseLayout';
-import ParentComponent from './components/ParentComponent';
+import BaseLayout from './BaseLayout';
+import ParentComponent from './ParentComponent';
 
 class App extends Component {
   render() {

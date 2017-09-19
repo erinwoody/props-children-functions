@@ -24,5 +24,17 @@
 }
 
 .footer {
-  background: 
+  background-color: yellow;
+  font-size: 20px;
+  margin-top: 90%;
+}
+
+.header {
+  background-color: yellow;
+  font-size: 20px;
+}
+
+.input {
+  margin-top: 50%;
+  font-size: 30px;
 }

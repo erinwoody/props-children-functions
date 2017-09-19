@@ -35,7 +35,7 @@ export default class ParentComponent extends Component {
 
   render() {
     return (
-      <div>
+      <div className="input">
         <div>
           <input
             onChange={this.handleInput}
